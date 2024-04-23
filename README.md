@@ -1,0 +1,1 @@
+https://github.com/28nosleep/slozhno-sosredotochitsya.git
