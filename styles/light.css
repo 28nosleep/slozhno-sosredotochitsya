@@ -1,34 +1,32 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
-.theme_light {
+.page.theme_light {
   --bg-color: #fff1f7;
+  --bg-image: url(../images/cover-image-light.png);
   --main-title-color: #ffc2e6;
   --title-color: #353430;
-  --section-title-color: #000028;
   --text-color: #353430;
   --accent-color: #ff8dcb;
   --buttons-and-pseudo-color: #353430;
-}
-
-.page.theme_light {
-  background: url(../images/cover-image-light.png);
-  background-color: var(--bg-color);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-.theme_light .rec {
-  display: none;
+  --hover-color: #ada4a6;
+  --hover--focus-link-color: #353430;
 }
 
 @media (prefers-color-scheme: light) {
+  .theme_auto .rec,
   .theme_light .rec {
     display: none;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-color: #fff1f7;
+    --bg-image: url(../images/cover-image-light.png);
+    --main-title-color: #ffc2e6;
+    --title-color: #353430;
+    --text-color: #353430;
+    --accent-color: #ff8dcb;
+    --buttons-and-pseudo-color: #353430;
+    --hover-color: #ada4a6;
+    --hover--focus-link-color: #353430;
   }
 }
