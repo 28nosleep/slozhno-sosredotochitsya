@@ -347,9 +347,6 @@
     inline-size: 236px;
   }
 
-  .advice__section__title {
-  }
-
   .how__section {
     display: grid;
     grid-template-columns: 1fr 472px;
