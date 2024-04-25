@@ -323,11 +323,6 @@
     margin-inline-start: 13px;
   }
 
-  .why__list {
-    display: flex;
-    flex-direction: column;
-  }
-
   .why__list:not(:first-child) {
     display: flex;
     flex-direction: column;
