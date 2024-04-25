@@ -160,7 +160,6 @@
   display: grid;
   margin-block-start: 20px;
   grid-gap: 20px;
-
 }
 
 .what__section {
@@ -177,11 +176,8 @@
   margin-block-start: 49px;
 }
 
-.advice__title{
-
-  
+.advice__title {
   margin-block-start: 20px;
-  
 }
 
 .advice__list {
@@ -320,6 +316,7 @@
 
   .why__section__title {
     margin-block-start: 20px;
+    inline-size: 236px;
   }
 
   .why__list {
@@ -330,19 +327,15 @@
     display: flex;
     flex-direction: column;
   }
-  
+
   .why__list:not(:first-child) {
     display: flex;
     flex-direction: column;
     gap: 20px;
   }
-  
+
   .why__grid {
     grid-template-columns: 1fr 2fr;
-  }
-
-  .why__section__title {
-    inline-size: 236px;
   }
 
   .what__section {
@@ -356,7 +349,7 @@
   .how__section {
     margin-block-start: 80px;
   }
-  
+
   .advice__title {
     margin-block-start: 0px;
   }
