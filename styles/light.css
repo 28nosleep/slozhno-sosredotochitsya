@@ -8,13 +8,11 @@
   --buttons-and-pseudo-color: #353430;
   --hover-color: #ada4a6;
   --hover--focus-link-color: #353430;
+  --section-title-color: #353430;
 }
 
-@media (prefers-color-scheme: light) {
-  .theme_auto .rec,
-  .theme_light .rec {
-    display: none;
-  }
+.theme_light .rec {
+  display: none;
 }
 
 @media (prefers-color-scheme: light) {
@@ -28,5 +26,9 @@
     --buttons-and-pseudo-color: #353430;
     --hover-color: #ada4a6;
     --hover--focus-link-color: #353430;
+    --section-title-color: #353430;
+  }
+  .rec {
+    display: none;
   }
 }
